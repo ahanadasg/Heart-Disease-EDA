@@ -4,7 +4,7 @@
 This repository contains the Exploratory Data Analysis (EDA) for a heart disease dataset. The goal of this analysis is to gain insights into the dataset, understand the distribution and relationships of variables and identify patterns. 
 
 ## Visualization using Streamlit
-http://localhost:8501/
+http://192.168.100.5:8502
 
 ## Dataset
 The dataset used for this analysis is sourced from Kaggle. It contains the following columns:
@@ -66,7 +66,7 @@ Upload the Dataset to Google Colab.
    iv.	Next, let us assume the name of the python file is heart_disease_app.py.
    v.	In cmd type “streamlit run heart_disease_app.py”
    vi.	Make sure you have the .py file and the csv/excel dataset in the same folder.
-   vii.	Link to dashboard: http://localhost:8501/
+   vii.	Link to dashboard: http://192.168.100.5:8502
 
 
 ## Conclusion
