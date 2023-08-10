@@ -3,6 +3,9 @@
 ## Introduction:
 This repository contains the Exploratory Data Analysis (EDA) for a heart disease dataset. The goal of this analysis is to gain insights into the dataset, understand the distribution and relationships of variables and identify patterns. 
 
+## Visualization using Streamlit
+http://localhost:8501/
+
 ## Dataset
 The dataset used for this analysis is sourced from Kaggle. It contains the following columns:
 age
@@ -54,6 +57,17 @@ Upload the Dataset to Google Colab.
 10. Joint Plot: Age(age) versus Maximum heart rate achieved(thalach)
 
 ![image](https://github.com/ahanadasg/Heart-Disease-EDA/assets/113302918/f11d23dd-20db-471e-941f-0291f2536369)
+
+11. Steps to create visualization dashboard using Streamlit
+   i.	Install Streamlit in your machine.
+   ii.	Create a .py file which contains the necessary code in python to visualize the dataset in Streamlit.
+   iii.	Open cmd. Type cd<space>“Name of directory in which your .py file is located”
+         Example: cd Downloads
+   iv.	Next, let us assume the name of the python file is heart_disease_app.py.
+   v.	In cmd type “streamlit run heart_disease_app.py”
+   vi.	Make sure you have the .py file and the csv/excel dataset in the same folder.
+   vii.	Link to dashboard: http://localhost:8501/
+
 
 ## Conclusion
 
